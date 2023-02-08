@@ -1,0 +1,7 @@
+body {
+    min-height: 85rem;
+    padding-top: 7.5rem;
+  }
+  nav{
+    justify-content: end;
+  }

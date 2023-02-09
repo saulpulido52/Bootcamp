@@ -83,11 +83,11 @@
   background: linear-gradient( 263deg, rgb(74, 252, 83) 0%, rgb(0, 255, 213) 100% );
 }
 
-.boton2 {
+.botton {
  
   height: 50px;
   width: 132px;
-  background: #e0e4de;
+  background: #fdfdfd;
   border-radius: 22px;
   opacity: 1;
   left: 0;

@@ -10,10 +10,10 @@
    
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg  bg-black ">
-    <div class="container-fluid">
-      <a class="navbar-brand ms-5"   href="#" >
-        <img src="./styles/Spotify-logotipo.jpg" rel="Spotify" width="110px" >
+  <nav class="navbar navbar-expand-lg  bg-black">
+    <div class="container">
+      <a class="navbar-brand"   href="#">
+        <img src="./styles/Spotify-logotipo.jpg" rel="Spotify" width="110px">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="toggler-icon  top-bar"></span>
@@ -48,20 +48,20 @@
               <h1 class="display-4 fw-bolder  text-white text-xl-start">Obtén Premium gratis por 1 mes</h1>
               <p class="h5 text-white mt-4">Después, solo cuesta $ 115.00 al mes. Cancela cuando quieras.</p>
               <button class="botton bg-black text-light "  href="#"><a class="nav-link  text-white fw-bolder" style="width:100px" href="https://www.spotify.com/mx/download/android/?_ga=2.199086250.42968611.1675833863-940983416.1674325474" id="navbarDropdown">EMPEZAR</a></button>
-              <button class="botton fw-bolder bg-primary text-light" href="#">VER PLANES</button>
+              <button class="botton fw-bolder bg-primary text-light" href="#plans">VER PLANES</button>
               <p class="text-white h6 mt-4">Se aplican Términos y Condiciones.  El mes gratis no está disponible para los usuarios que ya hayan probado Premium.</p>
             </div>
             
           </div>
         </section>
         <section>
-          <div class="mb-4 bg-light">
+          <div class="mb-4">
             <div class="container-fluid py-5">
               <h1 class="display-5 mb-lg-5 fw-bold text-center">¿Por qué cambiarte a Premium?</h1>
-              <div class="row row align-items-start">
+              <div class="row align-items-start">
                 <div class="col">
                   <div class="text-center">
-                    <img src="./styles/musica.png" class="card-img m-auto" style="width: 108px;" alt="musica">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f" class="card-img m-auto" style="width: 108px;" alt="musica">
                     <div class="card-body">
                       <h5 class="card-title text-center">Descarga música.</h5>
                       <p class="card-text text-center">Escucha donde sea.</p>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="col">
                   <div class="text-center">
-                    <img src="./styles/anuncio.png" class="card-img m-auto" style="width: 108px;" alt="anuncio">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137" class="card-img m-auto" style="width: 108px;" alt="anuncio">
                     <div class="card-body">
                       <h5 class="card-title">Escucha música sin anuncios.</h5>
                       <p class="card-text">Disfruta de música sin interrupciones.</p>
@@ -100,15 +100,37 @@
           </div>
           
         </section>
-        <section>
-          <div class="row row-cols-1 row-cols-md-3 mb-1 text-center">
+        <section id="#plans">
+
+          <div class="position-relat overflow-hidden p-md-5 m-md-0 bg-black">
+            <div class=" ms-4 my-1">
+              <h2 class=" fw-bolder  text-white text-xl-center">Elige tu plan Premium</h2>
+              <p class="h5 text-white text-xl-center">Escucha contenido sin límites en tu teléfono, altavoces y otros dispositivos.</p>
+              
+            <div id="d-flex p-2" class="bord-hedeader">
+              <div class="text-white text-xl-center m-5">
+                
+                <h2>Todos los beneficios de Premium</h2>
+              </div>
+              <div  class="text-white">
+                <ul><li id="lista" >Escucha música sin anuncios</li>
+                  <li id="lista" >Reproduce tus canciones en cualquier lugar, incluso en modo offline</li>
+                  <li id="lista" >Reproduce contenido on-demand</li>
+                  <li id="lista" >Elige la opción prepaga o suscríbete</li>
+                </ul>
+
+              </div>
+                
+
+            </div>
+          <div class="row row-cols-1 row-cols-md-3 mb-1 bg-black text-center text-light">
             <div class="col">
-              <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card mb-4 rounded-3 shadow-sm bg-black border border-primary rounded-3">
                 <div class="card-header py-3">
                   <h4 class="my-0 fw-normal">Free</h4>
                 </div>
-                <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <div class="card-body border border-primary ">
+                  <h1 class="card-title pricing-card-title ">$0<small class="text-muted fw-light">/mo</small></h1>
                   <ul class="list-unstyled mt-3 mb-4">
                     <li>10 users included</li>
                     <li>2 GB of storage</li>
@@ -137,22 +159,43 @@
               </div>
             </div>
             <div class="col">
-              <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                <div class="card-header py-3 text-bg-primary border-primary">
-                  <h4 class="my-0 fw-normal">Enterprise</h4>
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Pro</h4>
                 </div>
                 <div class="card-body">
-                  <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                  <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
                   <ul class="list-unstyled mt-3 mb-4">
-                    <li>30 users included</li>
-                    <li>15 GB of storage</li>
-                    <li>Phone and email support</li>
+                    <li>20 users included</li>
+                    <li>10 GB of storage</li>
+                    <li>Priority email support</li>
                     <li>Help center access</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
                 </div>
               </div>
             </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>20 users included</li>
+                    <li>10 GB of storage</li>
+                    <li>Priority email support</li>
+                    <li>Help center access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+           
           </div>
         </section>
       </main>

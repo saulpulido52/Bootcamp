@@ -1,3 +1,12 @@
+div.row {
+  margin-right: 0px;
+}
+
+div.container-fluid {
+  padding-right: 0px;
+}
+
+
 .navbar-toggler {
   width: 20px;
   height: 20px;
@@ -80,11 +89,11 @@
 /* Color of 3 lines */
 
 .navbar-toggler.collapsed .toggler-icon {
-  background: linear-gradient( 263deg, rgb(74, 252, 83) 0%, rgb(0, 255, 213) 100% );
+  background: linear-gradient(263deg, rgb(74, 252, 83) 0%, rgb(0, 255, 213) 100%);
 }
 
 .botton {
- 
+
   height: 50px;
   width: 132px;
   background: #fdfdfd;
@@ -92,4 +101,36 @@
   opacity: 1;
   left: 0;
   margin-top: 50px;
+}
+
+.verde a:hover {
+
+  color: rgb(84, 197, 61);
+}
+.card {
+  border-style: 5px solid black;
+  padding-bottom: 3%;
+}
+.bord-hedeader{
+ 
+  border-image-slice: 1;
+  border-width: 5px;
+  background: radial-gradient(circle at 100% 100%,#000 0,#000 7.4px,transparent 0) 0 0/12.4px 12.4px no-repeat,radial-gradient(circle at 0 100%,#000 0,#000 7.4px,transparent 0) 100% 0/12.4px 12.4px no-repeat,radial-gradient(circle at 100% 0,#000 0,#000 7.4px,transparent 0) 0 100%/12.4px 12.4px no-repeat,radial-gradient(circle at 0 0,#000 0,#000 7.4px,transparent 0) 100% 100%/12.4px 12.4px no-repeat,linear-gradient(#000,#000) 50% 50%/calc(100% - 10px) calc(100% - 24.8px) no-repeat,linear-gradient(#000,#000) 50% 50%/calc(100% - 24.8px) calc(100% - 10px) no-repeat,linear-gradient(54deg,#b00d6e,#ac0e6f 50%,#084791 98%);
+  margin: 15px;
+  
+
+}
+#lista{
+  list-style-type: none;
+  position: relative;
+  text-align: center;
+  margin-top: 12px;
+  text-justify:distribute-all-lines;
+  
+}
+
+#lista:before {
+  content: "✓";
+  margin-right: 12px;
+  
 }

@@ -116,15 +116,16 @@ div.container-fluid {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
-  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-  margin: 15px;
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+   margin: 20px;
   
 
 }
 #lista{
   list-style-type: none;
   position: relative;
-  margin: 12px;
+  
+  margin-top: 12px;
   text-justify:distribute-all-lines;
   
 }
@@ -133,4 +134,10 @@ div.container-fluid {
   content: "✓";
   margin-right: 12px;
   
+}
+.card {
+  border-style: 5px solid black;
+  padding-bottom: 0;
+  flex: auto;
+
 }

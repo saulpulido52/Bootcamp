@@ -138,4 +138,6 @@ div.container-fluid {
 .card {
   border-style: 5px solid black;
   padding-bottom: 0;
+  flex: auto;
+
 }

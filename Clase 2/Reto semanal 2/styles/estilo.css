@@ -113,17 +113,18 @@ div.container-fluid {
 }
 .bord-hedeader{
  
+  border: 10px solid;
   border-image-slice: 1;
   border-width: 5px;
-  background: radial-gradient(circle at 100% 100%,#000 0,#000 7.4px,transparent 0) 0 0/12.4px 12.4px no-repeat,radial-gradient(circle at 0 100%,#000 0,#000 7.4px,transparent 0) 100% 0/12.4px 12.4px no-repeat,radial-gradient(circle at 100% 0,#000 0,#000 7.4px,transparent 0) 0 100%/12.4px 12.4px no-repeat,radial-gradient(circle at 0 0,#000 0,#000 7.4px,transparent 0) 100% 100%/12.4px 12.4px no-repeat,linear-gradient(#000,#000) 50% 50%/calc(100% - 10px) calc(100% - 24.8px) no-repeat,linear-gradient(#000,#000) 50% 50%/calc(100% - 24.8px) calc(100% - 10px) no-repeat,linear-gradient(54deg,#b00d6e,#ac0e6f 50%,#084791 98%);
-  margin: 15px;
+  border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+   margin: 20px;
   
 
 }
 #lista{
   list-style-type: none;
   position: relative;
-  text-align: center;
+  
   margin-top: 12px;
   text-justify:distribute-all-lines;
   
@@ -133,4 +134,8 @@ div.container-fluid {
   content: "✓";
   margin-right: 12px;
   
+}
+.card {
+  border-style: 5px solid black;
+  padding-bottom: 0;
 }
